@@ -1,0 +1,27 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="android:fontFamily">@font/rubik_regular</item>
+        <item name="android:textColor">@color/textColor</item>
+    </style>
+    <style name="Widget.BlogSample.IntroButton" parent="Widget.MaterialComponents.Button">
+        <item name="android:padding">12dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="backgroundTint">@color/colorPrimary</item>
+    </style>
+    <style name="Widget.BlogSample.LoginButton" parent="Widget.MaterialComponents.Button.UnelevatedButton">
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+    <style name="Widget.BlogSample.SocialButton" parent="Widget.MaterialComponents.Button.UnelevatedButton">
+        <item name="android:padding">12dp</item>
+        <item name="cornerRadius">0dp</item>
+    </style>
+</resources>
